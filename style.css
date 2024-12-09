@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.result, #downloadBtn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.result-table th, .result-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.result-table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+#certificate {
+    display: none;
+    width: 800px;
+    height: 1131px;
+    padding: 20px;
+    background: #fff;
+    /* border: 5px solid #007BFF; */
+    /* border-radius: 12px; */
+    font-family: 'Georgia', serif;
+    position: relative;
+    box-sizing: border-box;
+    background-image: url(marksheet.png);
+    background-size: cover;
+    margin-left: 50px;
+}
+#certName, #certRollNo, #certTotalMarks, #certPercentage{
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+#certificate h2 {
+    font-size: 30px;
+    color: #007BFF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#certificate .cert-details {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width:72%;
+    text-align: center; 
+    margin-top: 385px;
+    margin-left: 70px;
+}
+
+#certificate .cert-details th, #certificate .cert-details td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+}
+.cert-details{
+  font-family: sans-serif;  
+  font-size: 20px;
+    font-weight: 700;
+}
+#certPercentage, #certTotalMarks, #certRollNo ,#certName{
+    text-align: center;
+}
+#certificate .cert-details th {
+    /* background-color: #007BFF; */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: left;
+}
+
+#certificate .signature {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Vladimir Script', cursive;
+    font-size: 28px;
+}
+
+#certificate .signature p {
+    margin: 0;
+}
+
+.correct-text {
+    color: #4CAF50; /* Green */
+}
+
+.incorrect-text {
+    color: #f44336; /* Red */
+}
+.ratio{
+    font-size: 3px; 
+    text-align: right;
+}
